@@ -8,17 +8,31 @@
     
 </head>
 <body>
-
+    
     <input class="todo-input" placeholder="add details">
-  <button class="todo-button"> Add </button>
+  <button class="todo-button" function addTodo() {
+    alert('prueba');
+  } > Add </button>
 
   <div class="todo-list">
     <div class="todo">
       <input type="checkbox">
-      <label> Do coding challenges</label>
+      <label> 1 label </label>
     </div>
   </div>
-
+  <div class="todo-list">
+    <div class="todo">
+      <input type="checkbox">
+      <label> 2 label</label>
+    </div>
+  </div>
+  <div class="todo-list">
+    <div class="todo">
+      <input type="checkbox">
+      <label> 3 label</label>
+    </div>
+  </div>
+  
     <script src="todo.js"></script> <!-- siempre importar el escrit al final de body -->
 </body>
 </html>
